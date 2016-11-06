@@ -1,0 +1,137 @@
+html {
+	margin: 0px;
+	padding: 0px;
+}
+input#search {
+	border: 1px solid #fefefe;
+    padding: 0px 10px;
+    height: 52px;
+    background-color: #fafafa;
+    color: #2a2a2a;
+    font-size: 1.3em;
+        box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+}
+.bold {
+	font-weight: bold;
+}
+input#search:focus {
+	box-shadow: inherit;
+}
+#btn-download {
+	height: 55px;
+	line-height: 57px;
+	background-color: #333333;
+}
+nav {
+	display: none;
+	background-color: #CC181E;
+}
+#btn-download:hover {
+	background-color: #444444;
+	box-shadow: inherit;
+}
+.btn {
+    height: 55px;
+    line-height: 57px;
+    background-color: #333333;
+}
+.btn:hover {
+    background-color: #444444;
+    box-shadow: inherit;
+}
+main {
+	padding-top: 50px;
+}
+div#content {
+	background-color: #CC181E;
+	color: #fafafa;
+}
+#ads {
+	color: #2a2a2a;
+}
+.noadds {
+	font-size: 2em;
+}
+div#searchbox {
+	position: relative;
+}
+span.mymodal {
+	position: absolute;
+    text-align: center;
+    width: 30%;
+    font-size: 1.2em;
+    border-radius: 13px;
+    background-color: rgba(82, 82, 82, 0.35);
+}
+span#urlEmpty {
+	display: none;
+    left: 0px;
+    top: 60px;
+}
+span#urlBad {
+	display: none;
+    left: 360px;
+    top: 60px;
+}
+span#urlError {
+	display: none;
+    left: 0px;
+    top: 60px;
+}
+.collection-header h5 {
+    border-bottom: 1px solid #e2e2e2;
+    margin-left: 15px;
+    position: relative;
+}
+.collection-header {
+	position: relative;
+}
+#dl {
+    position: absolute;
+    top: -6px;
+    right: 0;
+    cursor: pointer;
+    transition: ease-out .2s;
+}
+#dl:hover {
+	color: #CC181E;
+}
+.bg-black {
+    padding: 5px;
+    border-radius: 3px;
+    font-weight: lighter;
+    border: 1px solid black;
+    font-size: 0.8em;
+}
+.collection-item:hover {
+	background-color: #CC181E;
+	color: #fafafa;
+}
+p#informations{
+	background-color: #CC181E;
+}
+div#dl #btn-download {
+	height: 30px;
+    line-height: 30px
+}
+#count {
+    position: absolute;
+    top: 0px;
+    right: 250px;
+}
+#ads li {
+    list-style-type: decimal;
+}
+#ads .col.m6.l6 {
+	padding: 5px 25px;
+}
+@media screen and (max-width: 660px){
+    #count {
+        position: absolute;
+        top: 26px;
+        right: 10px;
+    }
+    #btn-add-list {
+        float: right;
+    }
+}

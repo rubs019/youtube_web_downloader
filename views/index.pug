@@ -1,0 +1,69 @@
+html
+ head
+  title!= title
+  meta(charset="utf-8")
+  meta(name="viewport" content="width=device-width, initial-scale=1, user-scalable=no")
+  link(href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet")
+  link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css")
+  link(rel="stylesheet" href="/css/main.css")
+ body
+  header
+    nav
+      div.container
+        div.nav-wrapper
+          a(href="#" class="brand-logo") YWB   
+  main
+    div#top-section
+      div#banner
+      div#content.valign-wrapper
+        div.container
+          div.row
+            h1.center Youtube <span class="bg-black">Download</span>
+          div.row
+            div#searchbox
+              div
+                input(id="search" placeholder="https://www.youtube.com/watch?v=oavMtUWDBTM" class="col s12 m9")
+                span#urlEmpty.mymodal Your URL is empty
+                span#urlBad.mymodal Wrong youtube URL
+                span#urlError.mymodal Error, please try next time
+              div.col.m3.s12
+                btn(class="btn" id="btn-add-list") Add to list
+                  i(class="material-icons right") add
+      div#ads
+        div.container
+          div.row
+           div.col.m6.l6
+             h4 Why a new youtube downloader ?
+             p With youtubemp3.fr you can download Youtube Video automatically compressed in a .zip folder. 
+             p#informations.center.white-text Use only full URL like : <span class="bold">https://www.youtube.com/watch?v=oavMtUWDBTM</span>
+             p If the conversion dont work, wait a minute and retry :)
+           div.col.m6.l6
+            h4 How it's work ?
+            ul
+              li Put one link from Youtube
+              li Click on "Add to list" 
+              li Verify your list
+              li Click to "download"
+              li Enjoy !
+    div#mid-section
+      div.container
+        div.col.l12
+          ul.collection
+            li.collection-header
+              h5 List download
+              div#count
+                span <span id="counter">0</span>/1
+              div#dl
+                btn(class="btn right" id="btn-download") Download
+                  i(class="material-icons right") file_download 
+
+
+
+
+
+  
+
+
+
+ script(src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous")
+ script(src="/js/player.js")

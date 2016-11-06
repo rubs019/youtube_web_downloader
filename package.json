@@ -1,0 +1,15 @@
+{
+  "name": "web_player_v1",
+  "version": "0.0.1",
+  "description": "lecture musique depuis bdd",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "rubz",
+  "license": "ISC",
+  "dependencies": {
+    "download": "^5.0.2",
+    "helmet": "^2.3.0"
+  }
+}
