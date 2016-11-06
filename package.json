@@ -12,17 +12,5 @@
     "download": "^5.0.2",
     "helmet": "^2.3.0",
     "express": "4.13.4"
-  },
-  "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/rubs019/youtube_web_playlist.git"
-  },
-  "keywords": [
-    "youtube"
-  ],
-  "bugs": {
-    "url": "https://github.com/rubs019/youtube_web_playlist/issues"
-  },
-  "homepage": "https://github.com/rubs019/youtube_web_playlist#readme"
+  }
 }
