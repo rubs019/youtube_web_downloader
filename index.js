@@ -1,7 +1,6 @@
 var express = require('express');
 var pug = require('pug');
-var mongojs = require('mongojs');
-var app = require('express')();
+var app = express();
 var bodyParser = require('body-parser'); // For read json file
 var helmet = require('helmet'); // For security
 var AdmZip = require('adm-zip'); // For Zip File
