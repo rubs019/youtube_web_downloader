@@ -39,7 +39,7 @@ app.post('/request', function(req, res){
 	})
 });
 // PORT
-var port = 8080;
+var port = process.env.PORT || 8080;
 app.listen(port, function () {
   console.log('Lancement sur le port '+port+' !');
 });
