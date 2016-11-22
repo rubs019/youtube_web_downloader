@@ -26,9 +26,6 @@ app.use('/img', express.static(__dirname + '/assets/img'));
 app.get('/', function (req, res) {
 	res.render('index', {title: 'Youtube Download'});
 });
-app.get('/test', function (req, res) {
-  res.send('test');
-});
 
 // POST
 app.post('/request', function(req, res){
