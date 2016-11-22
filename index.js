@@ -23,8 +23,11 @@ app.use('/js', express.static(__dirname + '/assets/js'));
 app.use('/img', express.static(__dirname + '/assets/img'));
 
 // GET
-app.get('', function (req, res) {
+app.get('/', function (req, res) {
 	res.render('index', {title: 'Youtube Download'});
+});
+app.get('/test', function (req, res) {
+  res.send('test');
 });
 
 // POST
@@ -38,5 +41,5 @@ app.post('/request', function(req, res){
 // PORT
 var port = 8080;
 app.listen(port, function () {
-  console.log('Example app listening on port '+port+' !');
+  console.log('Lancement sur le port '+port+' !');
 });
